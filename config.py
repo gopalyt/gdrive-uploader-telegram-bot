@@ -1,13 +1,6 @@
 import os
 
 class Config:
-  ENV = bool(os.environ.get('ENV', False))
-  if ENV:
-    BOT_TOKEN = os.environ.get('BOT_TOKEN')
-    APP_ID = os.environ.get('APP_ID')
-    API_HASH = os.environ.get('API_HASH')
-    DATABASE_URL = os.environ.get('DATABASE_URL')
-  else:
     BOT_TOKEN = '1893342297:AAEGJhjrS3PrzUaZ9YkvYIhBRza_Crzqp7w' # Get it from https://t.me/BotFather
     APP_ID = '4072549' # Get it from my.telegram.org/apps
     API_HASH = '9004f340b4b8fde2a93ab021a130fe9b' # Get it from my.telegram.org/apps
