@@ -1,5 +1,3 @@
-import os
-
 class Config:
     BOT_TOKEN = '1893342297:AAEGJhjrS3PrzUaZ9YkvYIhBRza_Crzqp7w' # Get it from https://t.me/BotFather
     APP_ID = '4072549' # Get it from my.telegram.org/apps
